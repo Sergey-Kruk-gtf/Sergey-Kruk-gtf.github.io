@@ -1,208 +1,362 @@
-<!doctype html>
-<html lang="en">
-  <head>
-      <!-- Required meta tags -->
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <title>Ремонт,настройка, модернизация,диагностика персональных,офисной техники, компьютеров и ноутбуков в Бобруйске</title>
+    <!-- Meta -->
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="content-language" content="by">
-    <meta http-equiv="content-type" content="text/html; charset=windows-1251">
     <meta name="keywords" content="Ремонт,настройка, модернизация,диагностика,системный блок,ноутбук, принтер, сканер,мфу">
-    <meta name="description" content="Ремонт, настройка, модернизация, диагностика, офисной техники, персональных компьютеров и ноутбуков в Бобруйске">
-    <link rel="icon" type="image/ico" href="img/favi.ico">
-    <title>Ремонт,настройка, модернизация,диагностика персональных,офисной техники, компьютеров и ноутбуков</title>
-      <!--Бутстрап -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/mainstyle.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet">
+    <meta name="description" content="Ремонт, настройка, модернизация, диагностика, офисной техники, персональных компьютеров и ноутбуков в Бобруйске. Идивидуальный подход к каждому клиенту, гибкая система скидок. Ремонты любой сложности по низкой цене.">
+    <meta name="author" content="Sergey Kruk">
+    <meta name="Robots" content="INDEX, FOLLOW">.
+    <meta name="revisit-after" content="15 days">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
 
-  </head>
-  <body >
 
-    <!--Панель навигации-->
-      <nav class=" navbar navbar-expand-sm navbar-dark sticky-top"  style="background-color: rgb(76, 76, 76)">
-        <div class="logo">
-          <a href="index.html"><img src="img/images.png" class="graficlogo" src"img/1.png" alt="logo"></a>
-        </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggle" style="mr-auto; width: auto; height:auto"><h4>menu</h4></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <ul class="navbar-nav">
-                    <!--li class="nav-item active" ><a href="index.html" class="disabled"><h3>На главную</h3></a></li-->
-                    <!--li class="nav-item" ><a href="pricing.html"><h3>Услуги и цены</h3></a></li-->
-                    <!--li class="nav-item" ><a href="About.html"><h3>О нас</h3></a></li-->
-                    <li class="nav-item" >
-                    <a  href="#" class="nav-item" data-toggle="modal" data-target="#exampleModal2" ><h3>Оставить заявку</h3></a>
-                  </li>
-            </ul>
-          </ul>
-        </div>
-      </nav>
-      <!--Фон сайта-->
-      <div class="container-fluid p-0">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li class="active" data-target="carouselExampleIndicators" data-slide-to="0"></li>
-            <li class= data-target="carouselExampleIndicators" data-slide-to="2"></li>
-            <li class= data-target="carouselExampleIndicators" data-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active ">
-              <img src="img/слайд1.jpg"  class="d-block w-100 ">
+</head>
+
+<body>
+    <!-- ******HEADER****** -->
+    <header id="header" class="header">
+        <div class="container">
+            <h1 class="logo">
+                <a class="scrollto" href="#hero">
+                    <span class="logo-icon-wrapper"><img class="logo-icon" src="assets/images/images.png" alt="icon"></span>
+                    <span class="text"><span class="highlight">Пк</span>Мастер</span></a>
+            </h1><!--//logo-->
+            <nav class="main-nav navbar-right" role="navigation">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button><!--//nav-toggle-->
+                </div><!--//navbar-header-->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active nav-item"><a class="scrollto" href="#about">О нас</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#testimonials">Отзывы</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#pricing">Услуги и цены</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#contact">Мы находимся</a></li>
+                    </ul><!--//nav-->
+                </div><!--//navabr-collapse-->
+            </nav><!--//main-nav-->
+        </div><!--//container-->
+    </header><!--//header-->
+
+    <div id="hero" class="hero-section">
+
+        <div id="hero-carousel" class="hero-carousel carousel carousel-fade slide" data-ride="carousel" data-interval="10000">
+
+
+
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#hero-carousel"></li>
+				<li data-slide-to="1" data-target="#hero-carousel"></li>
+				<li data-slide-to="2" data-target="#hero-carousel"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+
+				<div class="item item-1 active">
+					<div class="item-content container">
+    					<div class="item-content-inner">
+
+				            <h2 class="heading">Сломался ПК??? <br class="hidden-xs">Мы поможем!!!</h2>
+				            <p class="intro">Только у нас самые квалифицированные мастера!!!</p>
+				            <a class="btn btn-primary btn-cta" href="#" data-toggle="modal" data-target="#exampleModal2">Оформить заказ</a>
+
+    					</div><!--//item-content-inner-->
+					</div><!--//item-content-->
+				</div><!--//item-->
+
+				<div class="item item-2">
+					<div class="item-content container">
+						<div class="item-content-inner">
+
+				            <h2 class="heading">Ремонт любой сложности!!!</h2>
+				            <p class="intro">Замена компонентов, узлов, пайка любой сложности!!!</p>
+				            <a class="btn btn-primary btn-cta" href="#" data-toggle="modal" data-target="#exampleModal2">Оформить заказ</a>
+
+    					</div><!--//item-content-inner-->
+					</div>
+				</div><!--//item-->
+
+				<div class="item item-3">
+					<div class="item-content container">
+						<div class="item-content-inner">
+
+				            <h2 class="heading">Пролили чай на ноутбук?) Не беда!!!</h2>
+				            <p class="intro">Наши специалисты смогут вернуть его к жизни:)</p>
+				            <a class="btn btn-primary btn-cta" href="#" data-toggle="modal" data-target="#exampleModal2">Оформить заказ</a>
+
+
+    					</div><!--//item-content-inner-->
+					</div>
+				</div><!--//item-->
+			</div><!--//carousel-inner-->
+
+		</div><!--//carousel-->
+    </div><!--//hero-->
+
+    <div id="about" class="about-section">
+        <div class="container text-center">
+            <h2 class="section-title">Почему именно мы???</h2>
+            <p class="intro"><h4><p>Наш сервисный центр-это быстрое решение любых проблем с ноутбуком, компьютером, офисной техникой. Наши специалисты оперативно реанимируют даже те ПК, от которых отказались другие мастера.</p>
+              <p>У нас выгодные цены на ремонт — вы можете убедиться в этом, ознакомившись с нашими тарифами.</p>
+              <p>Наши специалисты возьмут на ремонт любой ноутбук и спасут его от всех неприятностей. Заказать ремонт  можно прямо сейчас — не теряйте времени, оставляйте заявку!</p></h4>
+              <h2 class="section-title">Мы сотрудничаем с брэндами!!!</h2>
+
+            <div class="container">
+            <img src="assets/images/fon2.png" style="  max-width: 100%; height: auto;" alt="Брэнды" title="Наши партнеры"  >
             </div>
-            <div class="carousel-item">
-              <img src="img/слайд2.jpg"  class="d-block w-100">
+
+
+
+          </div><!--//item-inner-->
+    </div><!--//item-->
+
+
+    <div id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title text-center">Наши довольные клиенты</h2>
+            <div class="item center-block">
+                <div class="profile-holder">
+                    <img class="profile-image" src="assets/images/profile-1.png" alt="profile">
+                </div>
+                <div class="quote-holder">
+                    <blockquote class="quote">
+                        <p>Ноутбук после ремонта работает!) Сделали все оперативно!</p>
+                        <div class="quote-source">
+                            <span class="name">@Иван,</span>
+                            <span class="meta">Бобруйск</span>
+                        </div><!--//quote-source-->
+                    </blockquote>
+                </div><!--//quote-holder-->
+            </div><!--//item-->
+            <div class="item item-reversed center-block">
+                <div class="profile-holder">
+                    <img class="profile-image" src="assets/images/profile-2.png" alt="profile">
+                </div>
+                <div class="quote-holder">
+                    <blockquote class="quote">
+                        <p> Сломался принтер, все иправили. Пока все работает. </p>
+                        <div class="quote-source">
+                            <span class="name">@Анна,</span>
+                            <span class="meta">Минск</span>
+                        </div><!--//quote-source-->
+                    </blockquote>
+                </div><!--//quote-holder-->
+            </div><!--//item-->
+            <div class="item center-block">
+                <div class="profile-holder">
+                    <img class="profile-image" src="assets/images/profile-3.png" alt="profile">
+                </div>
+                <div class="quote-holder">
+                    <blockquote class="quote">
+                        <p>  Все сделали быстро и не дорого.</p>
+                        <div class="quote-source">
+                            <span class="name">@Максим,</span>
+                            <span class="meta">Бобруйск</span>
+                        </div><!--//quote-source-->
+                    </blockquote>
+                </div><!--//quote-holder-->
+            </div><!--//item-->
+            <div class="item item-reversed center-block">
+                <div class="profile-holder">
+                    <img class="profile-image" src="assets/images/profile-4.png" alt="profile">
+                </div>
+                <div class="quote-holder">
+                    <blockquote class="quote">
+                        <p>Отличный центр, знают свое дело!</p>
+                         <div class="quote-source">
+                            <span class="name">@Антон,</span>
+                            <span class="meta">Бобруйск</span>
+                        </div><!--//quote-source-->
+                    </blockquote>
+
+                </div><!--//quote-holder-->
+            </div><!--//item-->
+        </div><!--//container-->
+    </div><!--//testimonials-->
+
+
+
+
+    <div id="pricing" class="pricing-section">
+        <div class="container text-center">
+            <h2 class="section-title">Услуги и цены</h2>
+            <div class="intro">Наши цены, самые демократичные в городе!!!</div>
+            <div class="pricing-wrapper">
+                <div class="item item-1 col-md-4 col-sm-4 col-xs-12">
+                    <div class="item-inner">
+                        <h3 class="item-heading">Ремонт и диагностика ноутбука:</h3>
+                        <h5 align="left">Установа Windows+мультимедийные и офисные программы = 30 руб.</h5>
+                        <h5 align="left">Устранение последствий залития = 10 руб.</h5>
+                        <h5 align="left">Чистка и замена термопасты = 10 руб.</h5>
+                        <h5 align="left">Проверка цепей питания = 10 руб.</h5>
+                        <h5 align="left">Замена комплектующих = 7 руб.+ цена комплектующих</h5>
+                        <h5 align="left">Решение нестандартных проблем(сам выключается,перезагружается, зависает)</h5>
+
+                        <a class="btn btn-cta" href="#" data-toggle="modal" data-target="#exampleModal2">Оформить заказ</a>
+
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item item-2 col-md-4 col-sm-4 col-xs-12">
+                    <div class="item-inner">
+                        <h3 class="item-heading">Ремонт и диагностика системных блоков:</h3>
+                        <h5 align="left">Установа Windows+мультимедийные и офисные программы = 30 руб.</h6>
+                        <h6 align="left">Чистка и замена термопасты = 7 руб.</h5>
+                        <h5 align="left">Проверка цепей питания = 10 руб.</h5>
+                        <h5 align="left">Апгрейд,замена комплектующих = 5 руб. + цена комплектующих</h5>
+                        <h5 align="left">Сборка системного блока из ваших комплектующих = 6 руб.</h5>
+
+                        <a class="btn btn-cta" href="#" data-toggle="modal" data-target="#exampleModal2">Оформить заказ</a>
+
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+
+                <div class="item item-3 col-md-4 col-sm-4 col-xs-12">
+                    <div class="item-inner">
+                        <h3 class="item-heading">Ремонт принтеров и МФУ:</h3>
+                        <h5 align="left">Диагностика принтера, мфу, копира = 30 руб.</h5>
+                        <h5 align="left">Заправка СНПЧ (водорастворимые, 6 цветов) = 5 руб. + чернила = 5руб.</h5>
+                        <h5 align="left">Ремонт блока питания планшетного сканера = от 30 руб.</h5>
+                        <h5 align="left">Обновление версии ПО принтера = от 15 руб.</h5>
+                        <h5 align="left">Настройка принтера, мфу = от 10 руб.</h5>
+                        <h5 align="left">Профилактика, чистка основных узлов механизма (принтера, мфу, копира) = 15 руб.</h5>
+
+                        <a class="btn btn-cta" href="#" data-toggle="modal" data-target="#exampleModal2">Оформить заказ</a>
+
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+            </div><!--//pricing-wrapper-->
+
+        </div><!--//container-->
+    </div><!--//pricing-section-->
+
+
+    <div id="contact" class="contact-section">
+        <div class="container text-center">
+            <h2 class="section-title">Наши кординаты</h2>
+            <div class="contact-content">
+                <h3 align="center">Мы находимся по адресу:г.Бобруйск, 50 лет ВЛКСМ, д. 20</h3>
+                    <div id="map"></div>
+                <h3 align="center">Наши телефоны: <p> <a href="tel:+375297061938">+375(29)-706-19-38</a> <a title="Viber" href="viber://add?number=+375297061938">Viber</a>
+                  <a href="skype:Sergey_Kruk?call">Skype</a> </p> <p><a href="tel:+375257403079">+375(25)-740-30-79</a></p> </h3>
+
             </div>
-            <div class="carousel-item">
-              <img src="img/слайд3.jpg"  class="d-block w-100">
-            </div>
-          </div>
-          <a href="#carouselExampleIndicators" class="carousel-control-next" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-          <a href="#carouselExampleIndicators" class="carousel-control-prev" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Prev</span>
-          </a>
-        </div>
 
-      </div>
-      <div>
-      <h4><p>Наш сервисный центр-это быстрое решение любых проблем с ноутбуком, компьютером, офисной техникой. Наши специалисты оперативно реанимируют даже те ПК, от которых отказались другие мастера.</p><p>У нас выгодные цены на ремонт — вы можете убедиться в этом, ознакомившись с нашими тарифами.</p><p>Наши специалисты возьмут на ремонт любой ноутбук и спасут его от всех неприятностей. Заказать ремонт  можно прямо сейчас — не теряйте времени, оставляйте заявку!</p></h4>
-        <!--ФОН САЙТА-->
-      <img src="img/fon2.png" alt="" class="d-block w-100">
-
-      <div class="example">
-        <img src="img/фонпрайсинг.jpg" class="d-block w-100" alt="">
-        <div class="example-text">
-          <div class="layout " >
+        </div><!--//container-->
+    </div><!--//contact-section-->
 
 
-            <div class="col1">
-                <h3 align="center">Ремонт и диагностика ноутбука:</h3>
-                <h6 align="left">Установа Windows+мультимедийные и офисные программы=30 руб.</h6>
-                <h6 align="left">Устранение последствий залития=10 руб.</h6>
-                <h6 align="left">Чистка и замена термопасты=10 руб.</h6>
-                <h6 align="left">Проверка цепей питания=10 руб.</h6>
-                <h6 align="left">Замена комплектующих=7 руб.+ цена комплектующих</h6>
-                <h6 align="left">Решение нестандартных проблем(сам выключается,перезагружается, зависает)</h6>
-                <h6 align="left"></h6>
-            </div>
-            <div class="col2">
-              <h3 align="center">Ремонт и диагностика системных блоков:</h3>
-              <h6 align="left">Установа Windows+мультимедийные и офисные программы=30 руб.</h6>
-              <h6 align="left">Чистка и замена термопасты=7 руб.</h6>
-              <h6 align="left">Проверка цепей питания=10 руб.</h6>
-              <h6 align="left">Апгрейд,замена комплектующих=5 руб.+ цена комплектующих</h6>
-              <h6 align="left">Сборка системного блока из ваших комплектующих=6 руб.</h6>
-            </div>
-            <div class="col3">
-              <h3 align="center">Ремонт принтеров и МФУ:</h3>
-              <h6 align="left">Диагностика принтера, мфу, копира=30 руб.</h6>
-              <h6 align="left">Заправка СНПЧ (водорастворимые, 6 цветов)=5 руб. + чернила=5руб.</h6>
-              <h6 align="left">Ремонт блока питания планшетного сканера=от 30 руб.</h6>
-              <h6 align="left">Обновление версии ПО принтера=от 15 руб.</h6>
-              <h6 align="left">Настройка принтера, мфу=от 10 руб.</h6>
-              <h6 align="left">Профилактика, чистка основных узлов механизма (принтера, мфу, копира)=15 руб.</h6>
-            </div>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModal2" aria-hidden="true">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-footer">
+                        <div class="container-fluid">
+                        <form role="form">
+                          <div class="form-group">
+                            <label for="text"><h5 >Ваше имя</h5></label>
+                              <input type="text" class="form-control input-lg"  id="text" >
+                            <label for="text1"><h5>Краткое описание неисправности</h5></label>
+                              <input type="text" class="form-control input-lg" id="text1" >
+                            <label for="number"><h5>Ваш номер телефона</h5></label>
+                              <input type="tel" class="form-control input-lg" id="number">
+                              <label for="email"><h5>Ваш Email</h5></label>
+                              <input type="email" class="form-control input-lg" id="email">
+                              <div style="margin: auto">
+                               <button href=# class="btn btn-success btn-sm " style="margin: 10px 0px 0px 0px"><h5>Подтвердить</h5></button>
+                              </div>
+                              <div style="margin: auto">
+                                <button class="btn btn-primary btn-sm " style="margin: 10px 0px 0px 0px" data-dismiss="modal" ><h5>Закрыть</h5></button>
+                              </div>
+                          </div>
+                        </form>
+                            </div>
+                    </div>
 
-
-          </div>
-
-
-
-      </div>
     </div>
-    <h2 align="center">Мы находимся по адресу:г.Бобруйск, 50 летВЛКСМ, д. 20</h2>
-    <h2 align="center">Наши телефоны:8(029)7061938;  8(029)7403079</h2>
+  </div>
 
-      <style>
-    #map {width:100%; height:800px;}
-    </style>
+<style>
+#map { width:100%;height:300px;}
+</style>
 
-    <div id="map"></div>
+<script>
+function initMap() {
+var element = document.getElementById('map');
+var options = {
+ zoom: 15,
+ center: {lat: 53.169703,lng: 29.194341},
+};
 
-    <script>
-    function initMap() {
-    var element = document.getElementById('map');
-    var options = {
-     zoom: 15,
-     center: {lat: 53.169703,lng: 29.194341},
-    };
+var myMap = new google.maps.Map(element, options);
 
-    var myMap = new google.maps.Map(element, options);
+var markers = [
+ {
 
-    var markers = [
-     {
-       coordinates: {lat: 53.169703, lng: 29.194341},
-       info: '<h5>Ремонт компьютеров</h5>'
-     }
-    ];
+   coordinates: {lat: 53.169703, lng: 29.194341},
+   info:  '<h5>ПК Мастер</h5>'
+ }
+];
 
-    for(var i = 0; i < markers.length; i++) {
-     addMarker(markers[i]);
-    }
+for(var i = 0; i < markers.length; i++) {
+ addMarker(markers[i]);
+}
 
-    function addMarker(properties) {
-     var marker = new google.maps.Marker({
-       position: properties.coordinates,
-       map: myMap
-     });
+function addMarker(properties) {
+ var marker = new google.maps.Marker({
+   position: properties.coordinates,
+   map: myMap
+ });
 
-     if(properties.image) {
-       marker.setIcon(properties.image);
-     }
+ if(properties.image) {
+   marker.setIcon(properties.image);
+ }
 
-     if(properties.info) {
-       var InfoWindow = new google.maps.InfoWindow({
-         content: properties.info
-       });
+ if(properties.info) {
+   var InfoWindow = new google.maps.InfoWindow({
+     content: properties.info
+   });
 
-       marker.addListener('click', function(){
-         InfoWindow.open(myMap, marker);
-       });
-     }
-    }
-    }
-    </script>
+   marker.addListener('click', function(){
+     InfoWindow.open(myMap, marker);
+   });
+ }
+}
+}
+</script>
 
 
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-D9L-tB_JDm9k1drLiLcNRUxIfik1UZI&callback=initMap">
-    </script>
-       <!--Заявка-->
-       <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModal2" aria-hidden="true">
-           <div class="modal-dialog modal-sm" role="document">
-               <div class="modal-content">
-                   <div class="modal-header">
-                       <div class="modal-footer">
-                           <div class="container-fluid">
-                           <form role="form">
-                             <div class="form-group">
-                               <label for="text"><h5 >Ваше имя</h5></label>
-                                 <input type="text" class="form-control input-lg"  id="text" >
-                               <label for="text1"><h5>Краткое описание неисправности</h5></label>
-                                 <input type="text" class="form-control input-lg" id="text1" >
-                               <label for="number"><h5>Ваш номер телефона</h5></label>
-                                 <input type="tel" class="form-control input-lg" id="number">
-                                 <label for="email"><h5>Ваш Email</h5></label>
-                                 <input type="email" class="form-control input-lg" id="email">
-                                 <div style="margin: auto">
-                                  <button href=# class="btn btn-success btn-sm " style="margin: 10px 0px 0px 0px"><h5>Подтвердить</h5></button>
-                                 </div>
-                                 <div style="margin: auto">
-                                   <button class="btn btn-primary btn-sm " style="margin: 10px 0px 0px 0px" data-dismiss="modal" ><h5>Закрыть</h5></button>
-                                 </div>
-                             </div>
-                           </form>
-                               </div>
-                       </div>
+    <footer class="footer text-center">
+        <div class="container">
+            &copy; Крук Сергей
+        </div><!--//container-->
+    </footer>
 
-       </div>
-       <script src="js/jquery-3.3.1.slim.js"></script>
-       <script src="js/popper.js"></script>
-       <script src="js/bootstrap.js"></script>
-  </body>
+    <!-- Javascript -->
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-D9L-tB_JDm9k1drLiLcNRUxIfik1UZI&callback=initMap"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
 </html>
